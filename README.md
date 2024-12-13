@@ -1,6 +1,6 @@
 # Special_JavaScript_Project
 
-This is first HTML, CSS And Javascript Design Feel free to see it and tell me your opinion
+This is first HTML, CSS And Javascript Design feel free to see it and tell me your opinion
 
 ## Demo
 
