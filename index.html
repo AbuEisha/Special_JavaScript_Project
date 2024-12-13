@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="settings-area">
+      <div class="gear-icon">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="option-box">
+        <h3>Colors</h3>
+        <ul class="color-option">
+          <li class="active" data-color="#03A9F4"></li>
+          <li data-color="#d020ee"></li>
+          <li data-color="#4CAF50"></li>
+          <li data-color="#F44336"></li>
+          <li data-color="#009688"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h3>Random Background</h3>
+        <div class="background-option">
+          <span class="active" data-images="yes">Yes</span>
+          <span data-images="no">No</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h3>Bullets Options</h3>
+        <div class="bullet-option">
+          <span class="active" data-display="block">Show</span>
+          <span data-display="none">Hide</span>
+        </div>
+      </div>
+      <button class="reset-option">Reset Options</button>
+    </div>
+    <div class="nav-bullets"></div>
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="heading-area">
+        <div class="container">
+          <div class="logo">AbuEisha</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".our-skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".our-features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact-us">Contact Us</a></li>
+            </ul>
+            <i class="fa-solid fa-bars fa-2x toggle-menu"></i>
+          </div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quos eveniet blanditiis voluptatibus ab neque sed, quae aspernatur amet quaerat autem aut impedit.</p>
+      </div>
+    </div>
+    <div class="sections">
+      <section class="about-us" title="About Us">
+        <div class="container">
+          <div class="about-content">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam blanditiis quisquam non harum? Fuga iure impedit quod, reiciendis, enim voluptates repudiandae delectus veritatis, vitae consectetur dolorem quas ad ut quia?</p>
+          </div>
+          <div class="image">
+            <img src="imgs/about-us.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="our-skills" title="Our Skills">
+        <div class="container">
+          <h2>Our Skills</h2>
+          <div class="skill-box">
+            <div class="skill-name">HTML</div>
+            <div class="skill-progress">
+              <span data-progress="85%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">CSS</div>
+            <div class="skill-progress">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-progress">
+              <span data-progress="75%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Python</div>
+            <div class="skill-progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">PHP</div>
+            <div class="skill-progress">
+              <span data-progress="85%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-progress">
+              <span data-progress="70%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" title="Gallery">
+        <div class="container">
+          <h2>Our Gallery</h2>
+          <div class="images">
+            <img src="imgs/01.jpg" alt="Image One">
+            <img src="imgs/02.jpg" alt="Image Two">
+            <img src="imgs/03.jpg" alt="Image Three">
+            <img src="imgs/04.jpg" alt="Image Four">
+            <img src="imgs/05.jpg" alt="Image Five">
+            <img src="imgs/06.jpg" alt="">
+            <img src="imgs/07.jpg" alt="">
+            <img src="imgs/08.jpg" alt="">
+            <img src="imgs/09.jpg" alt="">
+            <img src="imgs/10.jpg" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="timeline" title="Timeline">
+        <div class="container">
+          <div class="timeline-content">
+            <div class="timeline-box">
+              <div class="year">2023</div>
+              <div class="left">
+                <h3>Left TimeLine 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos atque est in, provident consequatur corporis distinctio laudantium assumenda harum ea dignissimos earum sint beatae? Quam laudantium earum dignissimos ab.</p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="right">
+                <h3>Right TimeLine 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos atque est in, provident consequatur corporis distinctio laudantium assumenda harum ea dignissimos earum sint beatae? Quam laudantium earum dignissimos ab.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="timeline-box">
+              <div class="year">2024</div>
+              <div class="left">
+                <h3>Left TimeLine 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos atque est in, provident consequatur corporis distinctio laudantium assumenda harum ea dignissimos earum sint beatae? Quam laudantium earum dignissimos ab.</p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="right">
+                <h3>Right TimeLine 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos atque est in, provident consequatur corporis distinctio laudantium assumenda harum ea dignissimos earum sint beatae? Quam laudantium earum dignissimos ab.</p>
+              </div>
+              <div class="clearfix"></div>
+              <div class="right">
+                <h3>Right TimeLine 2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quos atque est in, provident consequatur corporis distinctio laudantium assumenda harum ea dignissimos earum sint beatae? Quam laudantium earum dignissimos ab.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-features" title="Our Features">
+        <div class="container">
+          <h2>Our Features</h2>
+          <div class="features-content">
+            <div class="feature-box">
+              <img src="imgs/cloud-code.svg" alt="">
+              <h4>Cloud Security</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+            <div class="feature-box">
+              <img src="imgs/code.svg" alt="">
+              <h4>Easy & Clean Coding</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+            <div class="feature-box">
+              <img src="imgs/ui-ux.svg" alt="">
+              <h4>UI & UX Development</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+            <div class="feature-box">
+              <img src="imgs/web-design.svg" alt="">
+              <h4>Professional Web Design</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+            <div class="feature-box">
+              <img src="imgs/coder.svg" alt="">
+              <h4>Professional Coder</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+            <div class="feature-box">
+              <img src="imgs/report.svg" alt="">
+              <h4>Professional Web Report</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, architecto.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonials" title="Testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="testimonials-content">
+            <div class="ts-box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sunt distinctio debitis, laborum qui minus cum nulla est exercitationem temporibus.</p>
+              <div class="person-info">
+                <img src="https://placehold.co/80x80/gray/eee/png" alt="">
+                <div class="info">
+                  <h4>Mustafa Abu Eisha</h4>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="ts-box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sunt distinctio debitis, laborum qui minus cum nulla est exercitationem temporibus.</p>
+              <div class="person-info">
+                <img src="https://placehold.co/80x80/eee/gray/png" alt="">
+                <div class="info">
+                  <h4>Samy Samir</h4>
+                  <p>CEO Of A Company</p>
+                </div>
+              </div>
+            </div>
+            <div class="ts-box">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam sunt distinctio debitis, laborum qui minus cum nulla est exercitationem temporibus.</p>
+              <div class="person-info">
+                <img src="https://placehold.co/80x80/ccc/gray/png" alt="">
+                <div class="info">
+                  <h4>Ahmed Hamza</h4>
+                  <p>Software Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us" title="Contact">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="">
+            <div class="left">
+              <input type="text" placeholder="Your Name" name="username">
+              <input type="number" placeholder="Your Phone" name="phone">
+              <input type="email" placeholder="Your Email" name="email">
+              <input type="text" placeholder="Your Subject" name="subject">
+            </div>
+            <div class="right">
+              <textarea name="message" placeholder="Your Message"></textarea>
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <div class="footer">Designed By Mustafa Abu Eisha</div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
